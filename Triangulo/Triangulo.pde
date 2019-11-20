@@ -2,6 +2,7 @@ float x0, y0, x1, y1, x2, y2, x, y;
 void setup(){  
  size(600,600);
  fill(167,230,243);
+ frameRate(10);
 }
 void draw(){
  if(keyPressed == true){
@@ -10,8 +11,8 @@ void draw(){
  }
 }
 void generarTriangulo(){
-   x0 = random(80);
- y0 = random(80);
+ x0 = random(250);
+ y0 = random(250);
  x1 = random(250);
  y1 = random(250);
  x2 = random(500);
